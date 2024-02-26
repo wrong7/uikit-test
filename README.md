@@ -15,3 +15,6 @@ npm run dev
 
 ## Test
 Try to drag the elements shown in the canvas. Only one element will be dragged. Drag event fires anywhere in the canvas.
+
+## Test 2
+Zoom in and out to clip images contained within a fixed scrollable container
