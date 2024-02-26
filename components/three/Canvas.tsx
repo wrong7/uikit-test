@@ -7,6 +7,7 @@ import {
 import { Canvas } from "@react-three/fiber";
 import { Scene } from "./Scene";
 import { Perf } from "r3f-perf";
+import { storeActions } from "@/lib/store/actions";
 
 export default function ThreeCanvas() {
   return (
@@ -17,6 +18,9 @@ export default function ThreeCanvas() {
     >
       <directionalLight color="white" position={[-10, 10, 5]} />
       <OrbitControls
+        ref={(element) => {
+          if (element) storeActions.r3f.set({ orbitControls: element });
+        }}
         zoomSpeed={1.1}
         enableRotate={false}
         panSpeed={1}

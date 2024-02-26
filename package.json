@@ -9,6 +9,7 @@
     "knip": "knip --include classMembers"
   },
   "dependencies": {
+    "@preact/signals-core": "^1.5.1",
     "@react-three/drei": "^9.99.4",
     "@react-three/fiber": "^8.15.16",
     "@react-three/uikit": "^0.1.2",
