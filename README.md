@@ -13,5 +13,5 @@ Run development environment
 npm run dev
 ```
 
-##Test
+## Test
 Try to drag the elements shown in the canvas. Only one element will be dragged. Drag event fires anywhere in the canvas.
